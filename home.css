@@ -750,3 +750,17 @@ main {
     transform: translateY(0);
   }
 }
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .features {
+    grid-template-columns: 1fr; /* stack on mobile */
+  }
+
+  .logo {
+    width: 100px;
+  }
+}
