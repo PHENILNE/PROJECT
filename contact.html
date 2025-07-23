@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Century Cinemax</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <img
+            src="https://centurycinemax.co.ke/images/logo-2.svg"
+            alt="Century Cinemax Logo"
+            class="logo"
+          />
+
+          <!--navigation links-->
+
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <div class="search-container">
+            <input type="text" placeholder="Search..." required />
+            <button type="submit">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </div>
+
+          <!--social media logos-->
+          <div class="social-icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--Main section of the page-->
+      <div class="hero">
+        <h1>Contacts & Location</h1>
+        <button class="book-now">Book now ></button>
+      </div>
+      <div class="contact">
+        <div class="parent">
+          <ul class="contact-info">
+            <li>
+              <ion-icon name="call-outline"></ion-icon>
+              <span>+254 700 000 000</span>
+            </li>
+            <li>
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>
+                <a href="mailto:centurymax@gmail.com">centurymax@gmail.com</a>
+              </span>
+            </li>
+            <li>
+              <ion-icon name="location-outline"></ion-icon>
+              <span>Century Cinemax, Two Rivers.</span>
+            </li>
+            <li>
+              <ion-icon name="time-outline"></ion-icon>
+              <span>Mon - Sun: 10:00 AM - 11:00 PM</span>
+            </li>
+          </ul>
+
+          <p>
+            There is a parking lot provided on the basement.We also provide free
+            3D glases and popcorn. Welcome all!
+          </p>
+        </div>
+        <div class="message">
+          <h2>Send us a message</h2>
+          <form action="https://example.com/submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Enquiry:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+              <option value="general">General Inquiry</option>
+              <option value="feedback">Feedback</option>
+              <option value="support">Support</option>
+              <option value="other">Other</option>
+            </select>
+
+            <input
+              type="checkbox"
+              id="verification"
+              name="verification"
+              required
+            />
+            <span class="checkmark"></span>
+            <label for="verification">I'm not a robot</label>
+
+            <button type="submit" class="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="location">
+        <div class="location-info">
+          <h2>Location</h2>
+          <p>View our location</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8952526326834!2d36.8780512!3d-1.2324979999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f15c2b5c07327%3A0x8fb7862a4bdbf110!2sCentury%20Cinemax%20Garden%20City!5e0!3m2!1sen!2ske!4v1753283579013!5m2!1sen!2ske"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <button class="view">View on map</button>
+        </div>
+        <div class="concerns">
+          <h2>Concerns & Complaints</h2>
+          <p>
+            If you have any concerns or complaints, please reach out to us via
+            email at <a href="mailto:mailto:centurymax@gmail.com"></a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Century Cinemax. All rights reserved.</p>
+      <p>
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms of Service</a>
+      </p>
+      <p>Follow us on social media for the latest updates!</p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
